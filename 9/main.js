@@ -1,6 +1,6 @@
 "use strict";
 
-const findNumber = () => {
+const findNumbers = () => {
 	let answer,
 		c = 334;
 	end: while (c < 999) {
@@ -21,4 +21,4 @@ const findNumber = () => {
 	}
 };
 
-findNumber();
+findNumbers();
