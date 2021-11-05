@@ -8,7 +8,6 @@ function fib(n) {
 
 for(let i = 1; fib(i) <= 4000000; i++) {
     if(fib(i) % 2 == 0){
-        console.log(fib(i));
         sum = sum + fib(i);
     }
 }

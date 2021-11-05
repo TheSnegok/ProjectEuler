@@ -2,6 +2,7 @@
 
 let Log = (output) => console.log(output);
 
+<<<<<<< HEAD
 function priNumber(num) {
 	for (let i = 1; i <= num; i++) {
 		switch (i) {
